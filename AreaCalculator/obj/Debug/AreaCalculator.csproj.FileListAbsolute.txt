@@ -1,0 +1,1 @@
+C:\Ashish\SampleCode\Tdd\TDDTypeScriptSample\AreaCalculator\AreaCalculator\obj\Debug\AreaCalculator.csprojResolveAssemblyReference.cache

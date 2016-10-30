@@ -1,0 +1,11 @@
+﻿{
+  "Framework": "qunit",
+  "IgnoreResourceLoadingErrors": true,
+  "EnableTracing": true,
+  "TraceFilePath": "%temp%\\chutzpah.log",
+  "Compile": {
+    "Mode": "External",
+    "Extensions": [ ".ts" ],
+    "ExtensionsWithNoOutput": [ ".d.ts" ]
+  }
+}

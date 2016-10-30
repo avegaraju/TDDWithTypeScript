@@ -1,0 +1,62 @@
+<!-- saved from url=(0014)about:internet -->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>QUnit Tests</title>
+    <script type="text/javascript" src="file:///C:/Users/Ashish%20Vegaraju/AppData/Local/Microsoft/VisualStudio/14.0/Extensions/crhzak3n.y3a/TestFiles/chutzpah_boot.js"></script>
+<link rel="stylesheet" type="text/css" href="file:///C:/Users/Ashish%20Vegaraju/AppData/Local/Microsoft/VisualStudio/14.0/Extensions/crhzak3n.y3a/TestFiles/QUnit/qunit.css"/>
+<script type="text/javascript" src="file:///C:/Users/Ashish%20Vegaraju/AppData/Local/Microsoft/VisualStudio/14.0/Extensions/crhzak3n.y3a/TestFiles/QUnit/qunit.js"></script>
+
+    
+    
+    <script type="text/javascript" src="file:///c:/ashish/samplecode/tdd/tddtypescriptsample/areacalculator/areacalculator/areacalculation.js"></script>
+
+    <script type="text/javascript" src="file:///c:/ashish/samplecode/tdd/tddtypescriptsample/areacalculator/areacalculator/Tests/areacalculationtests.js"></script>
+
+
+    <script>
+
+        var amdTestPaths = [];
+        window.chutzpah.boot(amdTestPaths);
+
+        if (window.chutzpah.usingModuleLoader) {
+            
+            if("") {
+                window.chutzpah.amdConfig({
+                    baseUrl: ""
+                });
+            }
+
+            window.chutzpah.amdConfig({
+                map: {
+                    '*': {
+                        
+                        }
+                }
+            });
+
+            window.QUnit.config.autostart = false;
+            window.chutzpah.amdStart = function() {
+                window.chutzpah.amdImport(amdTestPaths, function () {
+                    console.log("!!_!! Starting QUnit from inline AMD call...");
+                    if (!window._Chutzpah_covobj_name) {
+                        window.QUnit.start();
+                    }
+                });
+            }
+
+            if(window.chutzpah.amdAutoStart) {
+                window.chutzpah.amdStart();
+            }
+        }
+    </script>
+</head>
+
+<body>
+    
+    <div id="qunit"></div>
+    <div id="qunit-fixture"></div>
+</body>
+</html>
+
